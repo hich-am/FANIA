@@ -4,8 +4,19 @@ import { motion } from 'framer-motion';
 const Hero: React.FC = () => {
   return (
     <section className="relative w-full h-screen flex flex-col justify-center items-center overflow-hidden bg-background">
+      {/* Video Background */}
+      <video 
+        autoPlay 
+        loop 
+        muted 
+        playsInline 
+        className="absolute inset-0 w-full h-full object-cover z-0 opacity-40 grayscale"
+      >
+        <source src="https://assets.mixkit.co/videos/preview/mixkit-beautiful-woman-walking-in-a-forest-4309-large.mp4" type="video/mp4" />
+      </video>
+
       {/* Background elegant fade overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background/50 z-0 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/40 to-background/90 z-0 pointer-events-none" />
 
       <motion.div 
         initial={{ opacity: 0, y: 30 }}

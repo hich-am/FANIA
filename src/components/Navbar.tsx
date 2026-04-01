@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
             e.preventDefault();
             window.scrollTo({ top: 0, behavior: 'smooth' });
           }}
-          className="font-serif text-2xl tracking-widest text-accent uppercase font-semibold"
+          className="font-serif text-2xl tracking-widest text-[#5C3E84] uppercase font-bold"
         >
           Fania
         </a>

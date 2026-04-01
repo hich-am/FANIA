@@ -21,8 +21,8 @@ const About: React.FC = () => {
               {/* Optional minimal image placeholder */}
               <div className="absolute inset-0 bg-accent/30 mix-blend-multiply" />
               <img 
-                src="https://images.unsplash.com/photo-1512413914441-58d313176bef?auto=format&fit=crop&q=80&w=800" 
-                alt="Editorial placeholder" 
+                src="/fania.jpg" 
+                alt="Fania Aouchar" 
                 className="w-full h-full object-cover grayscale-[30%] opacity-90 sepia-[10%] mix-blend-darken"
               />
             </div>
