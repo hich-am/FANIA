@@ -9,7 +9,7 @@ export default {
       colors: {
         background: '#FAF9F6', // Off-white
         foreground: '#1A1A1A', // Off-black
-        accent: '#E6DFD3',     // Soft beige
+        accent: '#5C3E84',     // Elegant Purple
         divider: '#E5E5E5',    // Light gray
       },
       fontFamily: {
